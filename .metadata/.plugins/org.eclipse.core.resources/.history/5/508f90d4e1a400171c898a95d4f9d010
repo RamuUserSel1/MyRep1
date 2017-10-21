@@ -1,0 +1,34 @@
+package methods;
+
+public class MethodsEg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		function1();
+		String res = function2();
+		System.out.println(res);
+		MethodsEg m = new MethodsEg();
+		m.function3();
+		boolean res= m.function4();
+		System.out.println(res);
+	}
+	public static void function1()
+	{
+		System.out.println("Function1 code");
+	}
+	public static String function2()
+	{
+		System.out.println("Function2 code");
+		return "Pass";
+	}
+	public void function3()
+	{
+		System.out.println("Function3 code");
+	}
+	public boolean function4()
+	{
+		System.out.println("Function4 code");
+		return true;
+	}
+
+}

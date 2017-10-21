@@ -1,0 +1,15 @@
+package javaprograms;
+
+public class SwitchEg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String course ="Selenium";
+		Switch Case course
+		{
+			
+		}
+
+	}
+
+}

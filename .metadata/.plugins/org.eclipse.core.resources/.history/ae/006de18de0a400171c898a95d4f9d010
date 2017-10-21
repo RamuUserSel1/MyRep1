@@ -1,0 +1,21 @@
+package methods;
+
+public class MethodsEg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//function1();
+		String res = function2();
+		System.out.println(res);
+	}
+	public static void function1()
+	{
+		System.out.println("Function1 code");
+	}
+	public static String function2()
+	{
+		System.out.println("Function2 code");
+		return "Pass";
+	}
+
+}

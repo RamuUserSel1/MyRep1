@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15783" started-at="2017-10-10T07:48:18Z" finished-at="2017-10-10T07:48:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15783" started-at="2017-10-10T07:48:18Z" finished-at="2017-10-10T07:48:34Z">
+      <class name="pom.LoginTest">
+        <test-method status="PASS" signature="Login()[pri:0, instance:pom.LoginTest@2c35e847]" name="Login" duration-ms="15768" started-at="2017-10-10T00:48:18Z" finished-at="2017-10-10T00:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- pom.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

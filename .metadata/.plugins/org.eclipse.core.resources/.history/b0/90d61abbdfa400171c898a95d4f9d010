@@ -1,0 +1,15 @@
+package methods;
+
+public class MethodsEg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		function1();
+	}
+	public static void function1()
+	{
+		System.out.println("Function1 code");
+	}
+	
+
+}

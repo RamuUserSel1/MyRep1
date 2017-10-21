@@ -1,0 +1,26 @@
+package javaprograms;
+
+public class SwitchEg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String course ="Selenium";
+		switch (course)
+		{
+		case "manual"
+			System.out.println("You have selected manual");
+			break;
+		case "Selenium"
+			System.out.println("You have selected Selenium");
+			break;
+		case "UFT"
+			System.out.println("You have selected UFT");
+			break;
+		default:
+			
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package methods;
+
+import java.io.IOException;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+public class ReuseEg {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		MethodsEg m = new MethodsEg();
+		int res = m.sum(20, 40);
+		System.out.println(res);
+		
+		m.driver = new FirefoxDriver();
+		m.driver.get("http://www.gmail.com");
+		m.takescreenshot("d:\\test1.png");
+		
+		
+		
+	}
+
+}
